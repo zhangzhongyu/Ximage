@@ -2,7 +2,7 @@
 #  getChannelProductStatisticsByChannelId
 #  @para: IN i_Client SMALLINT
 #         IN i_ChannelId VARCHAR(20)
-#         IN i_ProductId NULL
+#         IN i_ProductId SMALLINT NULL
 #  @out:  * FROM ChannelProductStatistics
 #  @updated: 2017-12-05 by Joey Z
 #
