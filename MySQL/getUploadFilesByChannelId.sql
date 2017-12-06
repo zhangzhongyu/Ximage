@@ -1,3 +1,12 @@
+#
+#  getUploadFilesByChannelId
+#  @para: IN i_Client SMALLINT
+#         IN i_ChannelId VARCHAR(20)
+#         IN i_EffectiveDate DATE NULL
+#  @out:  * FROM UploadFiles
+#  @updated: 2017-12-03 by Joey Z
+#
+
 USE core_db;
 
 DROP PROCEDURE IF EXISTS getUploadFilesByChannelId;
