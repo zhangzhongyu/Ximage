@@ -1,3 +1,12 @@
+#
+#  getChannelProductStatisticsByChannelId
+#  @para: IN i_Client SMALLINT
+#         IN i_ChannelId VARCHAR(20)
+#         IN i_ProductId NULL
+#  @out:  * FROM ChannelProductStatistics
+#  @updated: 2017-12-05 by Joey Z
+#
+
 USE core_db;
 
 DROP PROCEDURE IF EXISTS getChannelProductStatisticsByChannelId;
